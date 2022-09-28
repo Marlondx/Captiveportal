@@ -1,0 +1,90 @@
+
+html{ scroll-behavior: smooth; }
+*{
+    box-sizing: border-box;
+    font-family: 'Mukta',sans-serif;
+}
+body{
+    font-family: 'Mukta',sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: #585858;
+    background: url(../images/Apos-atos-politicos-com-aglomeracoes-Cruzeiro-do-Sul-regride-e-atividades-devem-ser-restritas-ou-proibidas-a-partir-desta-terca-feira-17.png) no-repeat ;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1{ 
+    font-size: 38px;
+}
+p{  
+    margin: 5% 0 0 0;
+    color: #ffffff;
+    font-size: 19pt;
+    font-weight:400 ;
+}
+a{ 
+    text-decoration: none;
+    color: #F03737;
+}
+
+main{
+   
+    
+}
+section {
+     display: flex;
+     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin: 4.5% 0 0 0 ;
+    
+}
+
+input{
+    align-items: center;
+    width: 28%;
+    padding: 1.2em;
+    margin:0 0 1.2% 0;
+    border-radius: 18px;
+    border-style: none;
+    text-decoration: none;
+    outline-color:white;
+}
+input::placeholder{
+    font-size: 14pt;
+}
+input::after{
+    content: "";
+}
+.senha {
+    width: 100vw;
+
+}
+.senha input{
+    width: 27.8vw;
+    margin: 0 0 0 2vw;
+   
+}
+.senha img{
+    width: 2%;
+    position: relative;
+    left:-4%;
+    top: 8px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 15pt;
+    width: 20%;
+    padding: 8px;
+    margin:2% 0 0 0;
+    border-radius: 18px;
+    border-style: none;
+    background-color: #A2CC0E;
+    cursor: pointer;
+}

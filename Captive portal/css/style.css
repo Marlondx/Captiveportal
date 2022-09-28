@@ -22,6 +22,7 @@ html {
 
 /*  wrapper */
 .wrapper {
+    
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -64,6 +65,7 @@ input,
 select {
     -webkit-appearance: none;
     outline: none;
+
 }
 
 button,
@@ -137,6 +139,7 @@ body {
     display: grid;
     grid-template-rows: 1fr auto 1fr;
     align-items: center;
+
 }
 .main:before {
     position: absolute;
@@ -182,6 +185,7 @@ ul.links-unordered-list li.active a {
     text-transform: capitalize;
     font-weight: 600;
     letter-spacing: 1px;
+   
 }
 .content-w3ls ul li {
     display: inline-block;
@@ -241,6 +245,7 @@ ul.list-login-bottom li:nth-child(2) {
 
 .checkbox input:checked+i:after,
 .radio input:checked+i:after {
+    
     opacity: 1;
 }
 
@@ -337,6 +342,7 @@ ul.links-unordered-list li a {
     font-family: 'Mukta', sans-serif;
     width: 100%;
     outline: none;
+
 }
 
 ::-webkit-input-placeholder { /* Edge */
