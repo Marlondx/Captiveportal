@@ -52,10 +52,18 @@ input{
     border-style: none;
     text-decoration: none;
     outline-color:white;
+    border-style:double ;
 }
 input::placeholder{
     font-size: 14pt;
 }
+
+.cada input:invalid{
+    border-color:red;
+    
+}
+
+
 input::after{
     content: "";
 }
